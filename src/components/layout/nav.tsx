@@ -38,12 +38,12 @@ export const navConfig: NavCategory[] = [
     items: [
       {
         title: 'Ingest',
-        href: '/ingest',
+        href: '/data/ingest',
         icon: <Upload className="h-4 w-4" />,
       },
       {
         title: 'Datasets',
-        href: '/datasets',
+        href: '/data/datasets',
         icon: <Database className="h-4 w-4" />,
       },
     ],
@@ -53,52 +53,42 @@ export const navConfig: NavCategory[] = [
     items: [
       {
         title: 'Candidates',
-        href: '/candidates',
+        href: '/planning/candidates',
         icon: <Combine className="h-4 w-4" />,
       },
       {
         title: 'Optimize',
-        href: '/optimize',
+        href: '/planning/optimize',
         icon: <GitFork className="h-4 w-4" />,
       },
       {
         title: 'Plans',
-        href: '/plans',
+        href: '/planning/plans',
         icon: <List className="h-4 w-4" />,
       },
-    ],
-  },
-  {
-    title: 'Operations',
-    items: [
       {
         title: 'Replan',
-        href: '/replan',
+        href: '/planning/replan',
         icon: <RefreshCw className="h-4 w-4" />,
       },
+    ],
+  },
+  {
+    title: 'Insights',
+    items: [
       {
         title: 'Simulate',
-        href: '/simulate',
+        href: '/insights/simulate',
         icon: <PlayCircle className="h-4 w-4" />,
       },
-    ],
-  },
-  {
-    title: 'Intelligence',
-    items: [
       {
         title: 'Models',
-        href: '/models',
+        href: '/insights/models',
         icon: <BrainCircuit className="h-4 w-4" />,
       },
-    ],
-  },
-  {
-    title: 'System',
-    items: [
       {
         title: 'Monitor',
-        href: '/monitor',
+        href: '/insights/monitor',
         icon: <Monitor className="h-4 w-4" />,
       },
     ],
