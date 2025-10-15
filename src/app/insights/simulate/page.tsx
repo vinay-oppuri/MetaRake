@@ -1,3 +1,4 @@
+"use client";
 import { PageHeader } from '@/components/page-header';
 import { SimulationControl } from '@/components/simulation-control';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
