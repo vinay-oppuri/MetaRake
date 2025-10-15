@@ -4,7 +4,7 @@ import { PageHeader } from '@/components/page-header';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { MOCK_RAKE_PLANS } from '@/lib/placeholder-data';
-import { ArrowRight, Pallet, ShipWheel, Train, Warehouse } from 'lucide-react';
+import { ArrowRight, Package, ShipWheel, Train, Warehouse } from 'lucide-react';
 import Link from 'next/link';
 
 export default function Dashboard() {
@@ -25,7 +25,7 @@ export default function Dashboard() {
       
       <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
         <CardMetric icon={Train} title="Active Rakes" value="14" delta="+2 since last week" />
-        <CardMetric icon={Pallet} title="Material Tonnage" value="12,500 T" delta="-5% vs. target" />
+        <CardMetric icon={Package} title="Material Tonnage" value="12,500 T" delta="-5% vs. target" />
         <CardMetric icon={Warehouse} title="Stockyard Capacity" value="78%" delta="Stable" />
         <CardMetric icon={ShipWheel} title="Port Throughput" value="8,200 T/day" delta="+3% today" />
       </div>
